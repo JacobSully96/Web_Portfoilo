@@ -1,0 +1,114 @@
+
+/* div{
+    border: #242424;
+    border: 2px solid;
+} */
+
+
+body{
+    margin: 0;
+}
+
+.bg-image{
+    height: 1200px; 
+    background-size: cover;
+}
+
+
+/* .bgImage{
+    background-image: url("images/bgImage.jpg");
+    background-repeat: no-repeat; 
+    background-size: contain; 
+    width: 100vh;
+    height: 100vh;
+
+} */
+
+
+
+
+
+
+.navBar{
+    font-family: 'Roboto', sans-serif;
+     /* background-color: #da5c22; */
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+button{
+    font-family: 'Roboto', sans-serif;
+    background-color: #e0e0e0;
+    border: 2px solid;
+    border-radius: 10px;
+    color: #242424;
+    font-size: 1em;
+    margin: 3px;
+    padding: 1em 2em;
+    transition: color 0.25s, border-color 0.25s, transform 0.25s;
+}
+
+button:hover{
+    background-color: #bfd9fc;
+    border-color: #7c93fd;
+    color: #000000;
+    box-shadow: 0 0.5em 0.5em -0.4em #7c93fd;
+    transform: translateY(-0.25em);
+    transition: all 0.25s;
+    cursor: pointer;
+}
+
+
+.row{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+div .card{
+    padding: auto 20px;
+}
+
+table{
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.experienceTable table{
+    font-family: 'Montserrat', sans-serif;
+    /* border-collapse: collapse; */
+    border-spacing: 30px;
+    position: absolute; top: 200px;
+    width: 100%;
+    font-size:x-large;
+}
+
+.experienceTable td, th{
+    /* border: 1px solid #dddddd; */
+    text-align: left;
+    padding: 20px;
+    color: white;
+    /* border: 1px solid black; */
+}
+
+
+#welcome{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+}
+
+label{
+    color: white;
+}
+
+.card{
+    opacity: 95%;
+}
